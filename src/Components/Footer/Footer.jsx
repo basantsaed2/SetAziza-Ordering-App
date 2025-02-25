@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="content">
           <h2 className="text-white font-bold text-lg mb-4">Download Our App</h2>
           <div className="space-y-3">
-            <Link to="#" target='_blank' className="opacity-50 cursor-not-allowed flex items-center border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-mainColor transition duration-300">
+            <Link to="#" className="opacity-50 cursor-not-allowed flex items-center border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-mainColor transition duration-300">
               <FaApple className="text-2xl" />
               <span className="text-sm">App Store</span>
             </Link>
