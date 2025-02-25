@@ -24,7 +24,7 @@ const NewHomePage=()=>{
                         <MenuIcon/>
                         <h1 className="text-2xl text-mainColor">Menu</h1>
                     </Link>
-                    <Link target="_blank" to="https://www.restaurantlogin.com/ordering/restaurant/menu?company_uid=a2fc19d6-e9ea-4b4d-8ae9-526bac2e6b97&restaurant_uid=8ac9c3d9-c2d3-4d26-b397-c0fb409535a7&facebook=true" className="bg-[#9E090F1A] flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
+                    <Link to="/menu" className="bg-[#9E090F1A] flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
                         <DashIcon/>
                         <h1 className="text-2xl text-mainColor">Order Now</h1>
                     </Link>      
